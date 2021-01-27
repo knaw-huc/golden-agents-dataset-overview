@@ -63,7 +63,8 @@
       "VIAF",
       "NTA",
       "Ecartico",
-      "Biografisch Portaal"
+      "Biografisch Portaal",
+      "GeoNames"
     ],
     "tags": [
       "persons",
@@ -94,6 +95,7 @@
       "NTA",
       "Rijksmuseum",
       "STCN",
+      "STCN Printers",
       "RKD Artists",
       "VIAF",
       "DBNL Auteurs"
@@ -137,9 +139,27 @@
     ]
   },
   {
+    "name": "VIAF",
+    "url": "http://viaf.org/",
+    "description": "The Virtual International Authority File combines multiple name authority files into a single OCLC-hosted name authority service. The goal of the service is to lower the cost and increase the utility of library authority files by matching and linking widely-used authority files and making that information available on the Web.",
+    "outgoinglinks": [],
+    "tags": [
+      "persons"
+    ]
+  },
+  {
     "name": "AAT",
     "url": "http://vocab.getty.edu/aat/",
     "description": "Getty's Art & Architecture Thesaurus describes museum objects, buildings and more",
+    "outgoinglinks": [],
+    "tags": [
+      "vocabulary"
+    ]
+  },
+  {
+    "name": "ULAN",
+    "url": "http://vocab.getty.edu/ulan/",
+    "description": "Union List of Artist Names",
     "outgoinglinks": [],
     "tags": [
       "vocabulary"
@@ -241,11 +261,12 @@
     "name": "SAA Notariële Archieven",
     "url": "https://archief.amsterdam/archief/5075/",
     "description": "",
-    "outgoinglinks": [],
+    "outgoinglinks": ["VOC Opvarenden"],
     "tags": [
       "deeds",
       "persons",
-      "inventories"
+      "inventories",
+      "geography"
     ]
   },
   {
@@ -258,19 +279,19 @@
     ]
   },
   {
-    "name": "Getty Provenance Index (Montias)",
+    "name": "Getty Provenance Index",
     "url": "http://www.getty.edu/research/tools/provenance/search.html",
     "description": "",
-    "outgoinglinks": ["SAA Notariële Archieven"],
+    "outgoinglinks": ["SAA Notariële Archieven", "AAT", "ULAN", "Iconclass"],
     "tags": [
       "inventories"
     ]
   },
   {
-    "name": "Frick Collection (Montias)",
+    "name": "Frick Collection",
     "url": "https://research.frick.org/montias",
     "description": "",
-    "outgoinglinks": ["SAA Notariële Archieven"],
+    "outgoinglinks": ["SAA Notariële Archieven", "Iconclass"],
     "tags": [
       "inventories"
     ]
@@ -283,6 +304,15 @@
     "tags": [
       "persons",
       "portraits"
+    ]
+  },
+  {
+    "name": "VOC Opvarenden",
+    "url": "https://www.huygens.knaw.nl/projecten/zij-voeren-mee-met-de-voc/",
+    "description": "",
+    "outgoinglinks": ["GeoNames"],
+    "tags": [
+      "geography"
     ]
   }
 ]
