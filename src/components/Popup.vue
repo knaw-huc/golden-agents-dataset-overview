@@ -36,8 +36,8 @@ export default {
 <style scoped>
 .popup {
   position: absolute;
-	background: white;
-	border: 1px solid black;
+    background: white;
+    border: 1px solid black;
   border-radius: 3px;
   max-width: 100%;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
@@ -47,26 +47,26 @@ export default {
 
 .popup:after,
 .popup:before {
-	bottom: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: ' ';
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
 }
 
 .popup:after {
-	border-bottom-color: white;
-	border-width: 5px;
-	margin-left: -5px;
+    border-bottom-color: white;
+    border-width: 5px;
+    margin-left: -5px;
 }
 
 .popup:before {
-	border-bottom-color: black;
-	border-width: 6px;
-	margin-left: -6px;
+    border-bottom-color: black;
+    border-width: 6px;
+    margin-left: -6px;
 }
 
 .popup h3 {

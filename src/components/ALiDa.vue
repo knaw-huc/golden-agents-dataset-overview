@@ -4,7 +4,7 @@
       <!-- <img class="logo" id="logo-atm" :src="`${require('@/assets/amsterdam-time-machine.svg')}`" /> -->
       <!-- <img id="logo-alida" :src="`${require('@/assets/alida.svg')}`" /> -->
       <svg version="1.1" class="logo" id="logo-alida" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	      viewBox="0 0 421.1 204" style="enable-background:new 0 0 421.1 204;" xml:space="preserve">
+          viewBox="0 0 421.1 204" style="enable-background:new 0 0 421.1 204;" xml:space="preserve">
         <title>ALiDa - Amsterdam Linked Data</title>
         <g>
           <path d="M31.1,181.7l-2.4-6.7h-9.3l-2.4,6.7h-4.2l9.1-24.4h4.3l9.1,24.4H31.1z M27.6,171.5l-2.3-6.6c-0.2-0.4-0.4-1.1-0.7-2.1
