@@ -5,7 +5,7 @@
       <!-- <img id="logo-alida" :src="`${require('@/assets/alida.svg')}`" /> -->
       <svg version="1.1" class="logo" id="logo-alida" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           viewBox="0 0 421.1 204" style="enable-background:new 0 0 421.1 204;" xml:space="preserve">
-        <title>ALiDa - Amsterdam Linked Data</title>
+        <title>Golden Agents Datasets</title>
         <g>
           <path d="M31.1,181.7l-2.4-6.7h-9.3l-2.4,6.7h-4.2l9.1-24.4h4.3l9.1,24.4H31.1z M27.6,171.5l-2.3-6.6c-0.2-0.4-0.4-1.1-0.7-2.1
             s-0.5-1.7-0.6-2.1c-0.3,1.4-0.7,2.9-1.3,4.5l-2.2,6.3H27.6z"/>
@@ -130,6 +130,12 @@
           </g>
         </g>
       </svg>
+
+      <div class="header">
+        <p>
+          Based on <a href="https://alida.amsterdamtimemachine.nl">https://alida.amsterdamtimemachine.nl</a>
+        </p>
+      </div>
       <svg class="graph" :width="`${graph.width}px`"
         :viewBox="graph.viewBox && graph.viewBox.join(' ')"
         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -288,9 +294,9 @@ export default {
         height: 0
       },
       colors: [
-        '#5CBD70',
-        '#0099CD',
-        '#EE275F'
+        '#efc501',
+        '#323232',
+        '#075446'
       ]
     }
   },
@@ -451,7 +457,7 @@ export default {
 }
 
 .graphics {
-  width: 1400px;
+  width: 2500px;
   max-width: 100%;
 
   display: flex;
@@ -466,7 +472,7 @@ export default {
 }
 
 .graphics .graph {
-  width: 800px;
+  width: 2500px;
   max-width: 100%;
 }
 
@@ -505,7 +511,7 @@ header img:last-child {
 
 footer, section {
   font-size: 16px;
-  width: 600px;
+  width: 1200px;
   max-width: 100%;
   margin: 1em auto;
 }
@@ -611,6 +617,10 @@ footer img {
 
 .node:hover .edge-blobs path {
   stroke-width: 2px;
+}
+
+.header {
+  text-align: center;
 }
 
 .text {
