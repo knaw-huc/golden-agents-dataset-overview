@@ -101,7 +101,8 @@
       "DBNL Auteurs"
     ],
     "tags": [
-      "persons"
+      "persons",
+      "occupations"
     ]
   },
   {
@@ -238,6 +239,26 @@
     ]
   },
   {
+    "name": "Ja, ik wil!",
+    "url": "http://www.collective-action.info/ja-ik-wil",
+    "description": "",
+    "outgoinglinks": ["SAA Ondertrouwregisters", "HISCO"],
+    "tags": [
+      "deeds",
+      "persons",
+      "occupations"
+    ]
+  },
+  {
+    "name": "HISCO",
+    "url": "https://iisg.amsterdam/nl/data/datawebsites/history-of-work",
+    "description": "",
+    "outgoinglinks": [],
+    "tags": [
+      "occupations"
+    ]
+  },
+  {
     "name": "SAA Doopregisters",
     "url": "https://archief.amsterdam/archief/5001/",
     "description": "",
@@ -313,6 +334,15 @@
     "outgoinglinks": ["GeoNames"],
     "tags": [
       "geography"
+    ]
+  },
+  {
+    "name": "Liederenbank",
+    "url": "http://www.liederenbank.nl/",
+    "description": "",
+    "outgoinglinks": ["DBNL"],
+    "tags": [
+      "books"
     ]
   }
 ]
