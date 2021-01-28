@@ -64,7 +64,8 @@
       "NTA",
       "Ecartico",
       "Biografisch Portaal",
-      "GeoNames"
+      "GeoNames",
+      "Repertorium van ambtsdragers"
     ],
     "tags": [
       "persons",
@@ -79,7 +80,9 @@
     "outgoinglinks": [
       "Ecartico",
       "Wikidata",
-      "STCN"
+      "STCN",
+      "VIAF",
+      "NTA"
     ],
     "tags": [
       "persons",
@@ -204,7 +207,7 @@
     "name": "Amsterdam Corporate Group Portraits",
     "url": "",
     "description": "Dataset based on the dissertation of Norbert Middelkoop: 'Schutters, gildebroeders, regenten en regentessen: Het Amsterdamse corporatiestuk 1525-1850' (2019).",
-    "outgoinglinks": ["Rijksmuseum", "Amsterdam Museum", "Wikidata", "Repertorium van ambtsdragers"],
+    "outgoinglinks": ["Rijksmuseum", "Amsterdam Museum", "Wikidata", "Repertorium van ambtsdragers", "SAA Ondertrouwregisters"],
     "tags": [
       "persons",
       "portraits"
@@ -214,7 +217,7 @@
     "name": "Repertorium van ambtsdragers",
     "url": "http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861",
     "description": "The Compendium of office holders and civil servants 1428-1861 is a searchable database, accessible via the Internet, that contains information about the highest-ranking officeholders and members of the most important institutions of a representative, administrative and judicial nature on present-day Dutch territory.",
-    "outgoinglinks": ["Biografisch Portaal"],
+    "outgoinglinks": [],
     "tags": [
       "persons"
     ]
@@ -223,7 +226,7 @@
     "name": "Biografisch Portaal",
     "url": "http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861",
     "description": "The Compendium of office holders and civil servants 1428-1861 is a searchable database, accessible via the Internet, that contains information about the highest-ranking officeholders and members of the most important institutions of a representative, administrative and judicial nature on present-day Dutch territory.",
-    "outgoinglinks": [],
+    "outgoinglinks": ["Repertorium van ambtsdragers", "DBNL Titels"],
     "tags": [
       "persons"
     ]
@@ -340,7 +343,18 @@
     "name": "Liederenbank",
     "url": "http://www.liederenbank.nl/",
     "description": "",
-    "outgoinglinks": ["DBNL"],
+    "outgoinglinks": ["DBNL Titels"],
+    "tags": [
+      "books"
+    ]
+  },
+  {
+    "name": "DBNL Titels",
+    "url": "http://data.bibliotheken.nl/id/dataset/dbnlt",
+    "description": "Titels DBNL",
+    "outgoinglinks": [
+      "DBNL Auteurs"
+    ],
     "tags": [
       "books"
     ]
