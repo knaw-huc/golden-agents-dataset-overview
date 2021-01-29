@@ -2,7 +2,7 @@
     "name": "Gelegenheidsgedichten",
     "url": "https://www.kb.nl/bronnen-zoekwijzers/databanken-mede-gemaakt-door-de-kb/gelegenheidsgedichten-tot-1800-in-nederland",
     "description": "Gelegenheidsgedichten",
-    "outgoinglinks": ["NTA", "Wikidata", "Ecartico", "STCN", "STCN Printers", "SAA Ondertrouwregisters", "SAA Doopregisters", "SAA Begraafregisters", "SAA Notariële Archieven"],
+    "outgoinglinks": ["NTA", "Wikidata", "Ecartico", "STCN", "STCN Printers", "SAA Ondertrouwregisters", "SAA Doopregisters", "SAA Begraafregisters", "SAA Notariële Archieven", "RKD Images"],
     "tags": [
       "books",
       "events",
@@ -101,7 +101,8 @@
       "STCN Printers",
       "RKD Artists",
       "VIAF",
-      "DBNL Auteurs"
+      "DBNL Auteurs",
+      "RKD Images"
     ],
     "tags": [
       "persons",
@@ -115,6 +116,15 @@
     "outgoinglinks": [],
     "tags": [
       "persons"
+    ]
+  },
+  {
+    "name": "RKD Images",
+    "url": "https://rkd.nl/",
+    "description": "",
+    "outgoinglinks": ["RKD Artists"],
+    "tags": [
+      "portraits"
     ]
   },
   {
