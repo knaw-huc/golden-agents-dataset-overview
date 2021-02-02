@@ -102,7 +102,9 @@
       "RKD Artists",
       "VIAF",
       "DBNL Auteurs",
-      "RKD Images"
+      "RKD Images",
+      "STCV",
+      "British Museum"
     ],
     "tags": [
       "persons",
@@ -367,6 +369,24 @@
     ],
     "tags": [
       "books"
+    ]
+  },
+  {
+    "name": "STCV",
+    "url": "http://stcv.be/",
+    "description": "STCV. De bibliografie van het handgedrukte boek",
+    "outgoinglinks": [],
+    "tags": [
+      "books"
+    ]
+  },
+  {
+    "name": "British Museum",
+    "url": "https://www.britishmuseum.org/",
+    "description": "",
+    "outgoinglinks": [],
+    "tags": [
+      "painters"
     ]
   }
 ]
