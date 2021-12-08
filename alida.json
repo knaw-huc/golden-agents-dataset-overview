@@ -2,7 +2,7 @@
     "name": "Gelegenheidsgedichten",
     "url": "https://www.kb.nl/bronnen-zoekwijzers/databanken-mede-gemaakt-door-de-kb/gelegenheidsgedichten-tot-1800-in-nederland",
     "description": "Gelegenheidsgedichten",
-    "outgoinglinks": ["NTA", "Wikidata", "Ecartico", "STCN", "STCN Printers", "SAA Ondertrouwregisters", "SAA Doopregisters", "SAA Begraafregisters", "SAA Notariële Archieven", "RKD Images"],
+    "outgoinglinks": ["NTA", "Wikidata", "Ecartico", "STCN", "STCN Printers", "SAA Ondertrouwregisters", "SAA Doopregisters", "SAA Begraafregisters", "SAA Notariële Archieven", "RKD Images", "Liederenbank"],
     "tags": [
       "books",
       "events",
@@ -127,6 +127,15 @@
     "outgoinglinks": ["RKD Artists"],
     "tags": [
       "portraits"
+    ]
+  },
+   {
+    "name": "RKD Bredius",
+    "url": "https://rkd.nl/",
+    "description": "",
+    "outgoinglinks": ["RKD Artists", "SAA Notariële Archieven"],
+    "tags": [
+      "Bredius"
     ]
   },
   {
