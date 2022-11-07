@@ -2,7 +2,7 @@
   "name": "alida",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://lvanwissen.github.io/ga-datasets",
+  "homepage": "https://knaw-huc.github.io/golden-agents-dataset-overview",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
