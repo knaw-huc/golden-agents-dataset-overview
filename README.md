@@ -1,5 +1,5 @@
-# ALiDa — Amsterdam Linked Data
+# Golden Agents - Dataset Overview
 
-The Amsterdam Linked Data cloud (ALiDa) shows linked datasets relevant to the history of Amsterdam. See it yourself on alida.amsterdamtimemachine.nl.
+This repository gives a visual overview of the interconnections between datasets in the Golden Agents (https://goldenagents.org/) project. See: https://knaw-huc.github.io/golden-agents-dataset-overview/. 
 
-To add datasets to ALiDa, simply add them to [`alida.json`](alida.json).
+NB: This repository is a fork of the Amsterdam Linked Data Cloud visualization (https://github.com/mmmenno/alida). 
