@@ -1,8 +1,21 @@
-[{
+[
+  {
     "name": "Gelegenheidsgedichten",
     "url": "https://www.kb.nl/bronnen-zoekwijzers/databanken-mede-gemaakt-door-de-kb/gelegenheidsgedichten-tot-1800-in-nederland",
     "description": "Gelegenheidsgedichten",
-    "outgoinglinks": ["NTA", "Wikidata", "Ecartico", "STCN", "STCN Printers", "SAA Ondertrouwregisters", "SAA Doopregisters", "SAA Begraafregisters", "SAA Notariële Archieven", "RKD Images", "Liederenbank"],
+    "outgoinglinks": [
+      "NTA",
+      "Wikidata",
+      "Ecartico",
+      "STCN",
+      "STCN Printers",
+      "SAA Ondertrouwregisters",
+      "SAA Doopregisters",
+      "SAA Begraafregisters",
+      "SAA Notariële Archieven",
+      "RKD Images",
+      "Liederenbank"
+    ],
     "tags": [
       "books",
       "events",
@@ -31,27 +44,6 @@
     ],
     "tags": [
       "books"
-    ]
-  },
-  {
-    "name": "DBNL Auteurs",
-    "url": "http://data.bibliotheken.nl/id/dataset/dbnla",
-    "description": "Thesaurus Auteurs DBNL",
-    "outgoinglinks": [
-      "NTA"
-    ],
-    "tags": [
-      "books",
-      "persons"
-    ]
-  },
-  {
-    "name": "STCN Printers",
-    "url": "http://data.bibliotheken.nl/id/dataset/stcn",
-    "description": "Short Title Catalogue of the Netherlands (Publishers thesaurus)",
-    "outgoinglinks": [],
-    "tags": [
-      "persons"
     ]
   },
   {
@@ -112,94 +104,15 @@
     ]
   },
   {
-    "name": "RKD Artists",
-    "url": "https://rkd.nl/",
-    "description": "Rijksbureau voor Kunsthistorische Documentatie, data on artists born, working or collected in The Netherlands",
-    "outgoinglinks": [],
-    "tags": [
-      "persons"
-    ]
-  },
-  {
-    "name": "RKD Images",
-    "url": "https://rkd.nl/",
-    "description": "",
-    "outgoinglinks": ["RKD Artists"],
-    "tags": [
-      "portraits"
-    ]
-  },
-   {
     "name": "RKD Bredius",
     "url": "https://rkd.nl/",
     "description": "",
-    "outgoinglinks": ["RKD Artists", "SAA Notariële Archieven"],
+    "outgoinglinks": [
+      "RKD Artists",
+      "SAA Notariële Archieven"
+    ],
     "tags": [
       "Bredius"
-    ]
-  },
-  {
-    "name": "Adamlink",
-    "url": "https://adamlink.nl/",
-    "description": "Street Gazetteer and reference data on buildings, persons and districts",
-    "outgoinglinks": [
-      "Ecartico",
-      "RKD Artists",
-      "Wikidata",
-      "AAT",
-      "Rijksmuseum"
-    ],
-    "tags": [
-      "geography",
-      "persons"
-    ]
-  },
-  {
-    "name": "GeoNames",
-    "url": "https://www.geonames.org/",
-    "description": "Geographical names around the globe and elsewhere",
-    "outgoinglinks": [],
-    "tags": [
-      "geography"
-    ]
-  },
-  {
-    "name": "VIAF",
-    "url": "http://viaf.org/",
-    "description": "The Virtual International Authority File combines multiple name authority files into a single OCLC-hosted name authority service. The goal of the service is to lower the cost and increase the utility of library authority files by matching and linking widely-used authority files and making that information available on the Web.",
-    "outgoinglinks": [],
-    "tags": [
-      "persons"
-    ]
-  },
-  {
-    "name": "AAT",
-    "url": "http://vocab.getty.edu/aat/",
-    "description": "Getty's Art & Architecture Thesaurus describes museum objects, buildings and more",
-    "outgoinglinks": [],
-    "tags": [
-      "vocabulary"
-    ]
-  },
-  {
-    "name": "ULAN",
-    "url": "http://vocab.getty.edu/ulan/",
-    "description": "Union List of Artist Names",
-    "outgoinglinks": [],
-    "tags": [
-      "vocabulary"
-    ]
-  },
-  {
-    "name": "Amsterdam Museum",
-    "url": "https://www.amsterdammuseum.nl/open-data",
-    "description": "Over 80.000 objects on Amsterdam history, collected from the 16th-century onwards.",
-    "outgoinglinks": [
-      "Wikidata",
-      "Adamlink"
-    ],
-    "tags": [
-      "heritage objects"
     ]
   },
   {
@@ -216,40 +129,19 @@
     ]
   },
   {
-    "name": "Iconclass",
-    "url": "http://www.iconclass.nl",
-    "description": "Iconclass is a classification system designed for art and iconography",
-    "outgoinglinks": [],
-    "tags": [
-      "vocabulary"
-    ]
-  },
-  {
     "name": "Amsterdam Corporate Group Portraits",
     "url": "",
     "description": "Dataset based on the dissertation of Norbert Middelkoop: 'Schutters, gildebroeders, regenten en regentessen: Het Amsterdamse corporatiestuk 1525-1850' (2019).",
-    "outgoinglinks": ["Rijksmuseum", "Amsterdam Museum", "Wikidata", "Repertorium van ambtsdragers", "SAA Ondertrouwregisters"],
+    "outgoinglinks": [
+      "Rijksmuseum",
+      "Amsterdam Museum",
+      "Wikidata",
+      "Repertorium van ambtsdragers",
+      "SAA Ondertrouwregisters"
+    ],
     "tags": [
       "persons",
       "portraits"
-    ]
-  },
-  {
-    "name": "Repertorium van ambtsdragers",
-    "url": "http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861",
-    "description": "The Compendium of office holders and civil servants 1428-1861 is a searchable database, accessible via the Internet, that contains information about the highest-ranking officeholders and members of the most important institutions of a representative, administrative and judicial nature on present-day Dutch territory.",
-    "outgoinglinks": [],
-    "tags": [
-      "persons"
-    ]
-  },
-  {
-    "name": "Biografisch Portaal",
-    "url": "http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861",
-    "description": "The Compendium of office holders and civil servants 1428-1861 is a searchable database, accessible via the Internet, that contains information about the highest-ranking officeholders and members of the most important institutions of a representative, administrative and judicial nature on present-day Dutch territory.",
-    "outgoinglinks": ["Repertorium van ambtsdragers", "DBNL Titels"],
-    "tags": [
-      "persons"
     ]
   },
   {
@@ -266,19 +158,13 @@
     "name": "Ja, ik wil!",
     "url": "http://www.collective-action.info/ja-ik-wil",
     "description": "",
-    "outgoinglinks": ["SAA Ondertrouwregisters", "HISCO"],
+    "outgoinglinks": [
+      "SAA Ondertrouwregisters",
+      "HISCO"
+    ],
     "tags": [
       "deeds",
       "persons",
-      "occupations"
-    ]
-  },
-  {
-    "name": "HISCO",
-    "url": "https://iisg.amsterdam/nl/data/datawebsites/history-of-work",
-    "description": "",
-    "outgoinglinks": [],
-    "tags": [
       "occupations"
     ]
   },
@@ -306,7 +192,9 @@
     "name": "SAA Notariële Archieven",
     "url": "https://archief.amsterdam/archief/5075/",
     "description": "",
-    "outgoinglinks": ["VOC Opvarenden"],
+    "outgoinglinks": [
+      "VOC Opvarenden"
+    ],
     "tags": [
       "deeds",
       "persons",
@@ -318,7 +206,9 @@
     "name": "Notarissennetwerk",
     "url": "https://notarissennetwerk.nl/",
     "description": "",
-    "outgoinglinks": ["SAA Notariële Archieven"],
+    "outgoinglinks": [
+      "SAA Notariële Archieven"
+    ],
     "tags": [
       "persons"
     ]
@@ -327,7 +217,12 @@
     "name": "Getty Provenance Index",
     "url": "http://www.getty.edu/research/tools/provenance/search.html",
     "description": "",
-    "outgoinglinks": ["SAA Notariële Archieven", "AAT", "ULAN", "Iconclass"],
+    "outgoinglinks": [
+      "SAA Notariële Archieven",
+      "AAT",
+      "ULAN",
+      "Iconclass"
+    ],
     "tags": [
       "inventories"
     ]
@@ -336,7 +231,10 @@
     "name": "Frick Collection",
     "url": "https://research.frick.org/montias",
     "description": "",
-    "outgoinglinks": ["SAA Notariële Archieven", "Iconclass"],
+    "outgoinglinks": [
+      "SAA Notariële Archieven",
+      "Iconclass"
+    ],
     "tags": [
       "inventories"
     ]
@@ -345,57 +243,12 @@
     "name": "Het Schrijverskabinet",
     "url": "http://www.schrijverskabinet.nl/",
     "description": "",
-    "outgoinglinks": ["DBNL Auteurs"],
-    "tags": [
-      "persons",
-      "portraits"
-    ]
-  },
-  {
-    "name": "VOC Opvarenden",
-    "url": "https://www.huygens.knaw.nl/projecten/zij-voeren-mee-met-de-voc/",
-    "description": "",
-    "outgoinglinks": ["GeoNames"],
-    "tags": [
-      "geography"
-    ]
-  },
-  {
-    "name": "Liederenbank",
-    "url": "http://www.liederenbank.nl/",
-    "description": "",
-    "outgoinglinks": ["DBNL Titels"],
-    "tags": [
-      "books"
-    ]
-  },
-  {
-    "name": "DBNL Titels",
-    "url": "http://data.bibliotheken.nl/id/dataset/dbnlt",
-    "description": "Titels DBNL",
     "outgoinglinks": [
       "DBNL Auteurs"
     ],
     "tags": [
-      "books"
-    ]
-  },
-  {
-    "name": "STCV",
-    "url": "http://stcv.be/",
-    "description": "STCV. De bibliografie van het handgedrukte boek",
-    "outgoinglinks": [],
-    "tags": [
-      "books"
-    ]
-  },
-  {
-    "name": "British Museum",
-    "url": "https://www.britishmuseum.org/",
-    "description": "",
-    "outgoinglinks": [],
-    "tags": [
-      "painters"
+      "persons",
+      "portraits"
     ]
   }
 ]
