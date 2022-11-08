@@ -1,20 +1,29 @@
 [
   {
-    "name": "Gelegenheidsgedichten",
-    "url": "https://www.kb.nl/bronnen-zoekwijzers/databanken-mede-gemaakt-door-de-kb/gelegenheidsgedichten-tot-1800-in-nederland",
-    "description": "Gelegenheidsgedichten",
+    "name": "Amsterdam Corporate Group Portraits",
+    "url": "https://github.com/knaw-huc/golden-agents-amsterdam-corporate-group-portraits/",
+    "description": "Dataset based on the dissertation of Norbert Middelkoop: 'Schutters, gildebroeders, regenten en regentessen: Het Amsterdamse corporatiestuk 1525-1850' (2019).",
     "outgoinglinks": [
-      "NTA",
       "Wikidata",
-      "Ecartico",
+      "Occasional Poetry",
+      "Amsterdam City Archives",
+      "Rijksmuseum"
+    ],
+    "tags": [
+      "persons",
+      "portraits"
+    ]
+  },
+  {
+    "name": "Occasional Poetry",
+    "url": "https://github.com/knaw-huc/golden-agents-occasional-poetry",
+    "description": "Dataset with occasional poetry (=Gelegenheidsgedichten) published in the Dutch Republic between c. 1600-1800.",
+    "outgoinglinks": [
+      "Wikidata",
+      "Amsterdam City Archives",
+      "ECARTICO",
       "STCN",
-      "STCN Printers",
-      "SAA Ondertrouwregisters",
-      "SAA Doopregisters",
-      "SAA Begraafregisters",
-      "SAA Notariële Archieven",
-      "RKD Images",
-      "Liederenbank"
+      "NTA"
     ],
     "tags": [
       "books",
@@ -27,9 +36,8 @@
     "url": "http://data.bibliotheken.nl/id/dataset/persons",
     "description": "Nederlandse Theaurus van Auteursnamen",
     "outgoinglinks": [
-      "VIAF",
       "Wikidata",
-      "DBNL Auteurs"
+      "DBNL"
     ],
     "tags": [
       "persons"
@@ -51,13 +59,8 @@
     "url": "https://www.wikidata.org/",
     "description": "Data on almost anything and a hub to data elsewhere",
     "outgoinglinks": [
-      "RKD Artists",
-      "VIAF",
-      "NTA",
-      "Ecartico",
-      "Biografisch Portaal",
-      "GeoNames",
-      "Repertorium van ambtsdragers"
+      "ECARTICO",
+      "NTA"
     ],
     "tags": [
       "persons",
@@ -66,15 +69,12 @@
     ]
   },
   {
-    "name": "OnStage",
+    "name": "ONSTAGE",
     "url": "http://www.vondel.humanities.uva.nl/onstage/",
     "description": "The repertoire, performances, popularity and revenues of the cultural program in Amsterdam’s public theatre during the period 1637 - 1772.",
     "outgoinglinks": [
-      "Ecartico",
-      "Wikidata",
-      "STCN",
-      "VIAF",
-      "NTA"
+      "NTA",
+      "STCN"
     ],
     "tags": [
       "persons",
@@ -82,21 +82,17 @@
     ]
   },
   {
-    "name": "Ecartico",
+    "name": "ECARTICO",
     "url": "http://www.vondel.humanities.uva.nl/ecartico/",
-    "description": "Over 30.000 artists and their connections in 17th-century Amsterdam",
+    "description": "Over 55.000 artists and their connections in 17th-century Amsterdam",
     "outgoinglinks": [
       "Wikidata",
       "NTA",
       "Rijksmuseum",
       "STCN",
-      "STCN Printers",
-      "RKD Artists",
-      "VIAF",
-      "DBNL Auteurs",
-      "RKD Images",
-      "STCV",
-      "British Museum"
+      "DBNL",
+      "ONSTAGE",
+      "Notary Network"
     ],
     "tags": [
       "persons",
@@ -104,12 +100,11 @@
     ]
   },
   {
-    "name": "RKD Bredius",
+    "name": "Bredius Excerpts",
     "url": "https://rkd.nl/",
     "description": "",
     "outgoinglinks": [
-      "RKD Artists",
-      "SAA Notariële Archieven"
+      "Amsterdam City Archives"
     ],
     "tags": [
       "Bredius"
@@ -119,39 +114,10 @@
     "name": "Rijksmuseum",
     "url": "https://www.rijksmuseum.nl/nl/api",
     "description": "Artworks and lots of objects related to the history of Amsterdam",
-    "outgoinglinks": [
-      "AAT",
-      "Iconclass"
-    ],
-    "tags": [
-      "persons",
-      "heritage objects"
-    ]
-  },
-  {
-    "name": "Amsterdam Corporate Group Portraits",
-    "url": "",
-    "description": "Dataset based on the dissertation of Norbert Middelkoop: 'Schutters, gildebroeders, regenten en regentessen: Het Amsterdamse corporatiestuk 1525-1850' (2019).",
-    "outgoinglinks": [
-      "Rijksmuseum",
-      "Amsterdam Museum",
-      "Wikidata",
-      "Repertorium van ambtsdragers",
-      "SAA Ondertrouwregisters"
-    ],
-    "tags": [
-      "persons",
-      "portraits"
-    ]
-  },
-  {
-    "name": "SAA Ondertrouwregisters",
-    "url": "https://archief.amsterdam/archief/5001/",
-    "description": "",
     "outgoinglinks": [],
     "tags": [
-      "deeds",
-      "persons"
+      "persons",
+      "paintings"
     ]
   },
   {
@@ -159,51 +125,15 @@
     "url": "http://www.collective-action.info/ja-ik-wil",
     "description": "",
     "outgoinglinks": [
-      "SAA Ondertrouwregisters",
-      "HISCO"
+      "Amsterdam City Archives"
     ],
     "tags": [
-      "deeds",
       "persons",
       "occupations"
     ]
   },
   {
-    "name": "SAA Doopregisters",
-    "url": "https://archief.amsterdam/archief/5001/",
-    "description": "",
-    "outgoinglinks": [],
-    "tags": [
-      "deeds",
-      "persons"
-    ]
-  },
-  {
-    "name": "SAA Begraafregisters",
-    "url": "https://archief.amsterdam/archief/5001/",
-    "description": "",
-    "outgoinglinks": [],
-    "tags": [
-      "deeds",
-      "persons"
-    ]
-  },
-  {
-    "name": "SAA Notariële Archieven",
-    "url": "https://archief.amsterdam/archief/5075/",
-    "description": "",
-    "outgoinglinks": [
-      "VOC Opvarenden"
-    ],
-    "tags": [
-      "deeds",
-      "persons",
-      "inventories",
-      "geography"
-    ]
-  },
-  {
-    "name": "Notarissennetwerk",
+    "name": "Notary Network",
     "url": "https://notarissennetwerk.nl/",
     "description": "",
     "outgoinglinks": [
@@ -214,37 +144,11 @@
     ]
   },
   {
-    "name": "Getty Provenance Index",
-    "url": "http://www.getty.edu/research/tools/provenance/search.html",
-    "description": "",
-    "outgoinglinks": [
-      "SAA Notariële Archieven",
-      "AAT",
-      "ULAN",
-      "Iconclass"
-    ],
-    "tags": [
-      "inventories"
-    ]
-  },
-  {
-    "name": "Frick Collection",
-    "url": "https://research.frick.org/montias",
-    "description": "",
-    "outgoinglinks": [
-      "SAA Notariële Archieven",
-      "Iconclass"
-    ],
-    "tags": [
-      "inventories"
-    ]
-  },
-  {
     "name": "Het Schrijverskabinet",
     "url": "http://www.schrijverskabinet.nl/",
     "description": "",
     "outgoinglinks": [
-      "DBNL Auteurs"
+      "DBNL"
     ],
     "tags": [
       "persons",
