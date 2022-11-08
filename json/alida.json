@@ -63,9 +63,7 @@
       "NTA"
     ],
     "tags": [
-      "persons",
-      "events",
-      "heritage objects"
+      "persons"
     ]
   },
   {
@@ -107,7 +105,7 @@
       "Amsterdam City Archives"
     ],
     "tags": [
-      "Bredius"
+      "persons"
     ]
   },
   {
@@ -135,9 +133,9 @@
   {
     "name": "Notary Network",
     "url": "https://notarissennetwerk.nl/",
-    "description": "",
+    "description": "RDF version of the Notary Network (Notarissennetwerk, https://notarissennetwerk.nl/), a structured version of the Repertorium van Notarissen.",
     "outgoinglinks": [
-      "SAA Notariële Archieven"
+      "Amsterdam City Archives"
     ],
     "tags": [
       "persons"
@@ -146,7 +144,7 @@
   {
     "name": "Het Schrijverskabinet",
     "url": "http://www.schrijverskabinet.nl/",
-    "description": "",
+    "description": "The Panpoëticon Batavûm is a collection of small portraits of Dutch poets (and writers in general).",
     "outgoinglinks": [
       "DBNL"
     ],
