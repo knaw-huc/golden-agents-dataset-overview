@@ -27,7 +27,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   line-height: 1.5;
-  
+  width: 1200px;
   max-width: 100%;
   margin: 0 auto;
 }
