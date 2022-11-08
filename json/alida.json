@@ -23,7 +23,8 @@
       "Amsterdam City Archives",
       "ECARTICO",
       "STCN",
-      "NTA"
+      "NTA",
+      "Ja, ik wil!"
     ],
     "tags": [
       "books",
@@ -72,7 +73,8 @@
     "description": "The repertoire, performances, popularity and revenues of the cultural program in Amsterdam’s public theatre during the period 1637 - 1772.",
     "outgoinglinks": [
       "NTA",
-      "STCN"
+      "STCN",
+      "ECARTICO"
     ],
     "tags": [
       "persons",
