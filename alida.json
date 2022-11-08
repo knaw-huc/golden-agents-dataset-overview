@@ -62,11 +62,7 @@
       "ECARTICO",
       "NTA"
     ],
-    "tags": [
-      "persons",
-      "events",
-      "heritage objects"
-    ]
+    "tags": []
   },
   {
     "name": "ONSTAGE",
@@ -106,9 +102,7 @@
     "outgoinglinks": [
       "Amsterdam City Archives"
     ],
-    "tags": [
-      "Bredius"
-    ]
+    "tags": []
   },
   {
     "name": "Rijksmuseum",
