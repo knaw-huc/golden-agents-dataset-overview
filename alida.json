@@ -90,7 +90,8 @@
       "STCN",
       "DBNL",
       "ONSTAGE",
-      "Notary Network"
+      "Notary Network",
+      "RKD Artists"
     ],
     "tags": [
       "persons",
@@ -102,7 +103,8 @@
     "url": "https://rkd.nl/",
     "description": "",
     "outgoinglinks": [
-      "Amsterdam City Archives"
+      "Amsterdam City Archives",
+      "RKD Artists"
     ],
     "tags": [
       "persons"
